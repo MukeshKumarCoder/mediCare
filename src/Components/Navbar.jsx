@@ -196,7 +196,7 @@ const Navbar = () => {
                       setIsOpen(false);
                       clerk.openSignIn();
                     }}
-                    className="w-full cursor-default md:rounded-full flex items-center justify-center gap-2 bg-linear-to-r from-emerald-500 to-green-600 text-white py-2.5 rounded-lg font-semibold hover:shadow-lg transition-all"
+                    className="w-full md:rounded-full flex items-center justify-center gap-2 bg-linear-to-r from-emerald-500 to-green-600 text-white py-2.5 rounded-lg font-semibold hover:shadow-lg transition-all cursor-pointer"
                   >
                     Login
                   </button>
