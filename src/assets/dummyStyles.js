@@ -1,6 +1,6 @@
 // Navbar styles
 export const navbarStyles = {
-  navbarBorder: navbar - border,
+  navbarBorder: "navbar-border",
   // Animation styles (to be added via style tag)
   animationStyles: `
     @keyframes borderFlow {
@@ -200,94 +200,6 @@ export const iconSize = {
   medium: "w-4",
 };
 
-// assets/dummyStyles.js
-
-export const bannerStyles = {
-  // Banner container styles
-  bannerContainer: "relative w-full max-w-7xl mx-auto my-12 px-4",
-
-  // Main container with animated border
-  mainContainer: "relative rounded-3xl shadow-2xl overflow-hidden group",
-
-  // Border outline styles
-  borderOutline: "absolute inset-0 rounded-3xl p-[3px] pointer-events-none",
-  outerAnimatedBand:
-    "absolute inset-0 rounded-3xl bg-linear-to-r from-green-400 via-emerald-500 to-green-400 animate-[spin_3s_linear_infinite] opacity-80",
-  innerWhiteBorder: "absolute inset-0.5 rounded-3xl bg-white",
-
-  // Content container
-  contentContainer: "relative z-20 p-6 sm:p-8 md:p-10 lg:p-12",
-
-  // Layout styles
-  flexContainer: "flex flex-col lg:flex-row items-center justify-between gap-8",
-  leftContent: "flex-1 text-center lg:text-left",
-  rightImageSection: "flex-1 relative w-full",
-
-  // Header with badge
-  headerBadgeContainer:
-    "flex flex-col lg:flex-row items-center justify-center lg:justify-start mb-4 lg:mb-6 gap-4",
-  stethoscopeContainer: "relative",
-  stethoscopeInner:
-    "relative bg-linear-to-br from-green-300 to-emerald-600 p-3 rounded-full shadow-lg transform -rotate-6 hover:rotate-0 transition-transform duration-300",
-  stethoscopeIcon: "w-7 h-7 text-white",
-
-  // Title styles
-  titleContainer: "font-[pacifico]",
-  title:
-    "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-1",
-  titleGradient:
-    "text-transparent bg-linear-to-r from-green-600 to-emerald-600 bg-clip-text",
-
-  // Stars
-  starsContainer: "flex items-center justify-center lg:justify-start mt-1",
-  starsInner: "flex gap-1",
-  starIcon: "w-4 h-4 fill-yellow-400 text-yellow-400",
-
-  // Tagline
-  tagline:
-    "text-lg sm:text-xl md:text-2xl lg:text-3xl font-light text-gray-700 mb-5 leading-tight",
-  taglineHighlight: "text-green-600 font-semibold",
-
-  // Features grid
-  featuresGrid:
-    "grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6 text-sm sm:text-base",
-  featureItem:
-    "flex items-center justify-center lg:justify-start bg-linear-to-br from-green-500 to-green-200 backdrop-blur-sm p-3 rounded-full shadow-sm border",
-  featureIcon: "w-5 h-5 text-white mr-3",
-  featureText: "text-gray-700 font-medium",
-
-  // Feature border colors
-  featureBorderGreen: "border-green-100",
-  featureBorderBlue: "border-blue-100",
-  featureBorderEmerald: "border-emerald-100",
-  featureBorderPurple: "border-purple-100",
-
-  // CTA Buttons container
-  ctaButtonsContainer:
-    "flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start",
-
-  // Book appointment button
-  bookButton:
-    "group relative lg:whitespace-nowrap bg-linear-to-r from-green-500 to-emerald-300 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold transform transition-all duration-300 shadow-2xl hover:shadow-3xl overflow-hidden text-sm sm:text-base",
-  bookButtonOverlay:
-    "absolute inset-0 bg-white/20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000",
-  bookButtonContent: "relative flex items-center justify-center gap-2",
-  bookButtonIcon: "w-4 h-4 sm:w-5 sm:h-5",
-
-  // Emergency call button
-  emergencyButton:
-    "group border-2 lg:whitespace-nowrap border-red-400 text-red-600 bg-red-300 px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold transform transition-all duration-300 backdrop-blur-sm hover:shadow-lg hover:bg-red-400/80 text-sm sm:text-base",
-  emergencyButtonContent: "flex items-center justify-center gap-2",
-  emergencyButtonIcon: "w-4 h-4 sm:w-5 sm:h-5",
-
-  // Image section
-  imageContainer: "relative w-full max-w-md mx-auto",
-  imageFrame:
-    "relative transform transition-transform duration-500 overflow-hidden rounded-xl",
-  image:
-    "w-full object-cover h-56 sm:h-72 md:h-96 lg:h-[360px] xl:h-[420px] transition-transform duration-700",
-};
-
 export const commonStyles = {
   // Common utility styles can be added here for reuse across components
   textCenter: "text-center",
@@ -305,49 +217,6 @@ export const commonStyles = {
 // dummyStyles.js - Centralized CSS styles for all components
 
 export const certificationStyles = {
-  // Container styles
-  container:
-    "relative py-6 bg-linear-to-brfrom-emerald-50 via-green-50 to-teal-50 overflow-hidden",
-
-  // Background styles
-  backgroundGrid: "absolute inset-0",
-  topLine:
-    "absolute top-0 left-0 w-full h-1 bg-linear-to-br from-transparent via-green-400 to-transparent opacity-60",
-  gridContainer: "absolute inset-0 opacity-[0.02]",
-  grid: "grid grid-cols-12 gap-4 w-full h-full",
-  gridCell: "border border-green-300 rounded",
-
-  // Content wrapper
-  contentWrapper: "relative max-w-7xl mx-auto px-2 sm:px-6 lg:px-8",
-
-  // Heading styles
-  headingContainer: "text-center mb-12",
-  headingInner: "relative inline-block",
-  leftLine:
-    "absolute -left-20 top-1/2 w-16 h-0.5 bg-linear-to-br from-transparent to-green-400",
-  rightLine:
-    "absolute -right-20 top-1/2 w-16 h-0.5 bg-linear-to-br from-transparent to-teal-400",
-  title: "text-3xl lg:text-6xl font-serif text-gray-900 mb-4 tracking-tight",
-  titleText:
-    "bg-linear-to-br from-green-600 via-teal-600 to-emerald-600 bg-clip-text text-transparent",
-  subtitle:
-    "text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed font-light tracking-wide",
-  badgeContainer:
-    "inline-flex items-center px-5 py-2.5 bg-green-500/10 border border-green-400/30 rounded-full mt-6 backdrop-blur-sm",
-  badgeDot: "w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse mr-3",
-  badgeText: "text-green-700 font-semibold tracking-wide text-sm",
-
-  // Logos container
-  logosContainer: "relative mb-10",
-  logosInner: "relative p-4 mx-auto max-w-9xl",
-  logosFlexContainer: "flex overflow-hidden",
-  logosMarquee: "flex animate-marquee-single whitespace-nowrap py-3",
-  logoItem:
-    "inline-flex flex-col items-center mx-10 transform transition-all duration-500 group",
-  logoImage: "w-16 h-16 object-contain filter transition-all duration-500",
-  logoText:
-    "mt-3 font-serif italic text-sm font-semibold text-gray-700 text-center max-w-[120px] leading-tight group-hover:text-green-700 transition-colors duration-300",
-
   // Animation keyframes and class (to be added via style tag)
   animationStyles: `
     @keyframes marquee-single {
@@ -549,114 +418,6 @@ export const doctorsPageStyles = {
 
 // Footer styles
 export const footerStyles = {
-  // Main container
-  footerContainer:
-    "relative font-serif bg-linear-to-br from-emerald-50 via-green-50 to-teal-50 border-t border-emerald-200 overflow-hidden",
-
-  // Floating icons
-  floatingIcon1: "absolute top-5 right-5 animate-float hidden md:block",
-  floatingIcon2: "absolute top-1/3 left-5 animate-float hidden md:block",
-  stethoscopeIcon: "w-8 h-8 text-emerald-600",
-  activityIcon: "w-5 h-5 text-green-500",
-
-  // Main content
-  mainContent:
-    "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16 relative z-10",
-  gridContainer:
-    "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-12 mb-10 text-center lg:text-left",
-
-  // Company info
-  companySection: "lg:col-span-1 flex flex-col items-center lg:items-start",
-  logoContainer:
-    "flex items-center space-x-5 mb-6 transform transition-transform duration-500",
-  logoWrapper: "relative",
-  logoImageContainer:
-    "relative w-16 h-16 md:w-18 md:h-18 lg:w-20 lg:h-20 p-1 transform transition-transform duration-500",
-  logoImage: "w-full h-full object-contain",
-  companyName:
-    "text-2xl md:text-3xl lg:text-3xl font-bold bg-linear-to-r from-emerald-600 to-green-700 bg-clip-text text-transparent font-['Poppins'] tracking-tight",
-  companyTagline:
-    "text-emerald-600 font-serif text-xs md:text-sm font-semibold tracking-wide mt-1",
-  companyDescription:
-    "text-emerald-700 font-serif italic mb-5 leading-relaxed text-sm md:text-base font-light",
-
-  // Contact info
-  contactContainer: "space-y-3 w-full md:w-auto",
-  contactItem:
-    "flex items-center justify-center md:justify-start space-x-4 text-emerald-700 hover:text-emerald-800 transition-all duration-300 group transform hover:translate-x-0 md:hover:translate-x-2",
-  contactIconWrapper:
-    "w-9 h-9 md:w-10 md:h-10 bg-emerald-100 rounded-full flex items-center justify-center transition-colors duration-300 shadow-sm",
-  contactIcon: "w-4 h-4 text-emerald-600",
-  contactText: "text-sm font-medium",
-
-  // Links sections
-  linksSection: "lg:col-span-1",
-  sectionTitle:
-    "text-lg md:text-xl font-bold text-emerald-800 mb-6 relative inline-block",
-  linksList: "space-y-2",
-  linkItem: "w-full",
-
-  // Quick Links
-  quickLink:
-    "flex items-center justify-center md:justify-start text-emerald-700 hover:text-emerald-800 transition-all duration-300 group text-sm md:text-base font-medium py-2 px-3 rounded-lg hover:bg-emerald-50 border border-transparent hover:border-emerald-200",
-  quickLinkIconWrapper:
-    "w-7 h-7 bg-emerald-100 rounded-full flex items-center justify-center mr-3",
-  quickLinkIcon: "w-3 h-3 text-emerald-600",
-
-  // Services
-  serviceLink:
-    "flex items-center justify-center md:justify-start text-emerald-700 hover:text-green-700 transition-all duration-300 group text-sm md:text-base font-medium py-2 px-3 rounded-lg hover:bg-green-50 border border-transparent hover:border-green-200",
-  serviceIcon: "w-3 h-3 bg-green-500 rounded-full mr-3",
-
-  // Newsletter & Social
-  newsletterSection: "lg:col-span-1 flex flex-col items-center lg:items-start",
-  newsletterTitle: "text-lg md:text-xl font-bold text-emerald-800 mb-4",
-  newsletterDescription:
-    "text-emerald-700 text-sm md:text-base mb-4 font-light text-center lg:text-left",
-  newsletterForm: "w-full max-w-md",
-
-  // Mobile newsletter
-  mobileNewsletterContainer: "flex flex-col gap-3 lg:hidden",
-  emailInput:
-    "w-full px-4 py-3 text-base text-emerald-800 bg-white border-2 border-emerald-200 rounded-full focus:outline-none focus:ring-4 focus:ring-emerald-300 focus:border-emerald-400 transition-all duration-300 shadow-sm placeholder-emerald-400",
-  mobileSubscribeButton:
-    "w-full inline-flex items-center justify-center gap-2 py-3 rounded-full bg-linear-to-r from-emerald-500 to-green-600 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300",
-  mobileButtonIcon: "w-4 h-4",
-
-  // Desktop newsletter
-  desktopNewsletterContainer: "relative hidden lg:block",
-  desktopEmailInput:
-    "w-full px-6 py-4 text-base text-emerald-800 bg-white border-2 border-emerald-200 rounded-full focus:outline-none focus:ring-4 focus:ring-emerald-300 focus:border-emerald-400 transition-all duration-300 transform shadow-lg placeholder-emerald-400",
-  desktopSubscribeButton:
-    "absolute right-2 xl:px-2 top-2 bg-linear-to-r from-emerald-500 to-green-600 text-white px-4 py-2 rounded-full cursor-pointer transition-all duration-300 transform flex items-center shadow-lg hover:shadow-xl",
-  desktopButtonIcon: "w-4 h-4 mr-2",
-  desktopButtonText: "font-semibold",
-
-  // Social links
-  socialContainer: "flex gap-3 justify-center lg:justify-start mt-6",
-  socialLink: "relative group",
-  socialIconBackground:
-    "absolute inset-0 bg-linear-to-r from-emerald-400 to-green-500 rounded-full transform scale-0 group-hover:scale-110 transition-transform duration-300 hidden lg:block",
-  socialIcon:
-    "w-10 h-10 md:w-11 md:h-11 lg:w-12 lg:h-12 p-2 text-emerald-700 cursor-pointer transform hover:scale-110 hover:rotate-6 transition-all duration-300 relative z-10 bg-white rounded-2xl shadow-lg border-2 border-emerald-100",
-
-  // Social icon colors
-  facebookColor: "hover:text-blue-600",
-  twitterColor: "hover:text-blue-400",
-  instagramColor: "hover:text-pink-600",
-  linkedinColor: "hover:text-blue-700",
-  youtubeColor: "hover:text-red-600",
-
-  // Bottom section
-  bottomSection:
-    "flex flex-col md:flex-row justify-center lg:justify-between items-center gap-4 md:gap-6 border-t border-emerald-100 pt-6",
-  copyright:
-    "text-emerald-700 text-sm md:text-base font-medium flex items-center gap-2",
-  designerText:
-    "text-emerald-700 text-sm md:text-base font-medium flex items-center gap-2",
-  designerLink:
-    "font-bold text-emerald-500 hover:text-purple-700 transition-colors duration-300",
-
   // Animation keyframes for floating icons (to be added via style tag)
   animationStyles: `
     @keyframes float {
